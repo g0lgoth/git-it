@@ -12,4 +12,20 @@ git status
 
 # pour ajouter un élément dans un repo
 git add "fichier à ajouter"
+# ajoute tous les éléments dans le repo
+git add .
+
+# pour faire un commit
+git commit -m "commentaire concernant le commit entre guillemet"
+
+git diff
+
+# ajouter son compte github ou gitlab
+git config --global user.username "mettre son username"
+
+# pour lier un dossier internet à un repo local
+git remote add origin "adresse du repo que l'on veut lier sans les guillemets"
+
+# si le repo origin est déjà créé il suffit de faire ça
+git remote set-url origin "adresse du repo que l'on veut lier sans les guillemets"
 
