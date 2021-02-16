@@ -1,0 +1,15 @@
+git --version
+
+git config --global user.name "Your name"
+
+git config --global user.email "Your email"
+
+# pour transformer un dossier en repo git sous git 
+git init
+
+# pour contrôler l'état d'un repo git
+git status
+
+# pour ajouter un élément dans un repo
+git add "fichier à ajouter"
+
